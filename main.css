@@ -71,6 +71,18 @@ body {
     list-style: none;
 }
 
+.nav-underline-custom,
+.nav-underline-custom:hover {
+    color: #ED7D3A;
+    font-family: 'Zeyada', cursive;
+}
+
+.nav-link.active.nav-underline-custom {
+    color: #ED7D3A;
+    font-family: 'Zeyada', cursive;
+    font-weight: bold;
+}
+
 
 footer a {
     text-decoration: none;
