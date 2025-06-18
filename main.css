@@ -1,17 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Zeyada&display=swap');
+
 header {
     background-color: #2E2E61;
 }
 
 .header-fonts {
     color: #ED7D3A;
+    font-family: 'Zeyada', cursive;
+    font-weight: bold;
+}
+
+.header-fonts:hover {
+    color: #ED7D3A;
+}
+
+.nav-link.header-fonts.active,
+.btn-custom {
+    background-color: #ED7D3A;
+    color: #1B1B3A;
+}
+
+.nav-link.header-fonts.active:hover,
+.btn-custom:hover {
+    background-color: #ED7D3A;
+    color: #1B1B3A;
 }
 
 body {
     background-color: #1B1B3A;
 }
 
-h1, h2 {
-    color: #ED7D3A;
+.text-color {
+    color: #9ED0E6;
+    font-family: 'Mynerve', cursive;
+    font-weight: bold;
 }
 
 
@@ -45,6 +67,14 @@ h1, h2 {
     display: block;
 }
 
+.li-socials {
+    list-style: none;
+}
+
+
+footer a {
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .carousel-custom {
