@@ -30,13 +30,12 @@ body {
     background-color: #1B1B3A;
 }
 
-.text-color {
+.text-color,
+label.error {
     color: #9ED0E6;
     font-family: 'Mynerve', cursive;
     font-weight: bold;
 }
-
-
 
 .carousel-custom {
     height: 45vw;
