@@ -37,19 +37,6 @@ body {
 }
 
 
-.card-btn {
-    background-color:#2E2E61;
-    color: #ED7D3A;
-    border: solid #2E2E61;
-    transition: 0.5s;
-    text-decoration: none;
-}
-
-.card-btn:hover {
-    cursor: pointer;
-    color: #9ED0E6;
-    background-color: #1B1B3A;
-}
 
 .carousel-custom {
     height: 45vw;
@@ -67,10 +54,6 @@ body {
     display: block;
 }
 
-.li-socials {
-    list-style: none;
-}
-
 .nav-underline-custom,
 .nav-underline-custom:hover {
     color: #ED7D3A;
@@ -83,6 +66,33 @@ body {
     font-weight: bold;
 }
 
+.card-custom {
+    background-color: #2E2E61;
+}
+
+.card-img-custom {
+    height: 300px;
+    object-fit: contain;
+}
+
+
+.card-btn {
+    background-color:#2E2E61;
+    color: #ED7D3A;
+    border: solid #2E2E61;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.card-btn:hover {
+    cursor: pointer;
+    color: #9ED0E6;
+    background-color: #1B1B3A;
+}
+
+.li-socials {
+    list-style: none;
+}
 
 footer a {
     text-decoration: none;
